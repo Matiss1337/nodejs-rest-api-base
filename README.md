@@ -1,4 +1,4 @@
-# Stack So Far Used
+# Stack Used
 
 Base Node.js REST API reference project that can be reused as a simple starting point for future backend work.
 
@@ -223,9 +223,9 @@ Example signup request body:
 
 ```json
 {
-  "email": "test@example.com",
-  "name": "Matt",
-  "password": "secret123"
+    "email": "test@example.com",
+    "name": "Matt",
+    "password": "secret123"
 }
 ```
 
@@ -233,8 +233,8 @@ Example login response:
 
 ```json
 {
-  "token": "jwt-token-here",
-  "userId": "user-id-here"
+    "token": "jwt-token-here",
+    "userId": "user-id-here"
 }
 ```
 
